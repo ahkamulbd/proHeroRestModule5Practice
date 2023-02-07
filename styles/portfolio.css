@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    font-family: 'Handlee', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* Style for Header and Navigation: */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 220px;
+}
+
+header h2 {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+header h2 span {
+    color: #FD6E0A;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li {
+    list-style: none;
+    margin-left: 51px;
+}
