@@ -7,6 +7,13 @@
 }
 
 /* Style for Header and Navigation: */
+.header {
+    background: #FFF8F3;
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+    margin-bottom: 63px;
+}
 
 header nav {
     display: flex;
@@ -82,4 +89,87 @@ header nav ul li {
 .banner img {
     width: 50%;
     margin-left: 100px;
+}
+
+/* Style for main section */
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.about-me {
+    padding: 131px 157px;
+    background: #FFF8F3;
+    border-radius: 10px;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    color: #181818;
+    margin-bottom: 30px;
+}
+
+.section-description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+main .about-me .my-info {
+    display: flex;
+    justify-content: space-around;
+}
+
+main .about-me .my-info .my-property {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #757575;
+}
+
+main .about-me .my-info .my-value {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #474747;
+}
+
+/* What I Do Section */
+
+.what-i-do .section-description {
+    margin: 0 245px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.my-skill {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.skill-card {
+    background: #FFFFFF;
+    margin: 0 24px;
+    padding: 30px;
+}
+
+.skill-name {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #181818;
+}
+
+.skill-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
 }
